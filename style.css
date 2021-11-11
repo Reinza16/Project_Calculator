@@ -4,7 +4,7 @@
     height: 100%;
 }
 body {
-    background-image: url(WallpaperDog-20453079.jpg);
+    background-color: #282a2d;
 }
 .calculator-body {
     text-align: center;
@@ -27,9 +27,12 @@ button {
     width: 25%;
     outline: none;
 }
-.all-clear, .equals{
+.equals {
     background-color: rgba(196,238,208,255);
     width: 50%;
+} 
+.all-clear {
+    background-color: rgba(196,238,208,255);
 }
 .all-clear:hover {
     border-radius: 15%;
